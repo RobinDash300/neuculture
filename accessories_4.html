@@ -27,7 +27,11 @@
         model-viewer::part(ar-prompt) {
             display: none;
         }
+        /* Hide interaction controls and cursor */
         model-viewer::part(cursor) {
+            display: none;
+        }
+        model-viewer::part(toggle-button) {
             display: none;
         }
     </style>
@@ -43,7 +47,8 @@
         shadow-intensity="1"
         exposure="1.0"
         ar="false"
-        ar-modes="webxr scene-viewer quick-look"
+        ar-modes=""
+        interaction-prompt="none"
         >
     </model-viewer>
 </body>
