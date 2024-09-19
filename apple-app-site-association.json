@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "3HTXDSAW73.com.neuculture.app", 
+        "paths": [ "/redirect/*" ]
+      }
+    ]
+  }
+}
